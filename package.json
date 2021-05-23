@@ -1,0 +1,67 @@
+{
+  "name": "Lab8",
+  "version": "1.0.0",
+  "description": "1. In your own words: Where would you fit your automated tests in your Bujo project development pipeline? (just write the letter)",
+  "main": "babel.config.js",
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CSE110-SP21/Lab8.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CSE110-SP21/Lab8/issues"
+  },
+  "homepage": "https://github.com/CSE110-SP21/Lab8#readme",
+  "jest": {
+    "preset": "jest-puppeteer",
+    "verbose": true
+  },
+  "devDependencies": {
+    "@babel/core": "^7.14.3",
+    "@babel/preset-env": "^7.14.2",
+    "babel-jest": "^26.6.3",
+    "jest": "^26.6.3"
+  },
+  "dependencies": {
+    "agent-base": "^6.0.2",
+    "ansi-regex": "^5.0.0",
+    "ansi-styles": "^3.2.1",
+    "arr-union": "^3.1.0",
+    "balanced-match": "^1.0.2",
+    "brace-expansion": "^1.1.11",
+    "ci-info": "^2.0.0",
+    "color-convert": "^1.9.3",
+    "color-name": "^1.1.3",
+    "concat-map": "^0.0.1",
+    "debug": "^4.3.1",
+    "escape-string-regexp": "^1.0.5",
+    "exit": "^0.1.2",
+    "for-in": "^1.0.2",
+    "fs.realpath": "^1.0.0",
+    "graceful-fs": "^4.2.6",
+    "has-flag": "^3.0.0",
+    "https-proxy-agent": "^5.0.0",
+    "inherits": "^2.0.4",
+    "is-buffer": "^1.1.6",
+    "is-ci": "^2.0.0",
+    "is-extendable": "^0.1.1",
+    "is-number": "^7.0.0",
+    "is-plain-object": "^2.0.4",
+    "isexe": "^2.0.0",
+    "isobject": "^3.0.1",
+    "jest-mock": "^26.6.2",
+    "jest-puppeteer": "^5.0.3",
+    "js-tokens": "^4.0.0",
+    "kleur": "^3.0.3",
+    "lodash": "^4.17.21",
+    "minimatch": "^3.0.4",
+    "minimist": "^1.2.5",
+    "ms": "^2.1.2",
+    "puppeteer": "^9.1.1"
+  }
+}
